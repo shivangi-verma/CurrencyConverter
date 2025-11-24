@@ -17,5 +17,3 @@ This React Currency Converter lets you swap, convert, and get **real-time exchan
 
 ---
 
-## 📁 Project Structure
-

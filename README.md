@@ -17,3 +17,43 @@ This React Currency Converter lets you swap, convert, and get **real-time exchan
 
 ---
 
+## 🧠 How It Works
+
+### 1. **Custom Hook: `useCurrencyInfo`**
+Fetches up-to-date exchange rates using:
+https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json
+
+
+Returns an object containing exchange values for all currencies.
+
+---
+
+### 2. **`InputBox` Component**
+Reusable component that handles:
+- Amount input  
+- Currency dropdown  
+- Disabled states for readonly fields  
+
+---
+
+### 3. **Swap + Convert Logic**
+- **Swap** swaps `from` and `to` currencies effortlessly  
+- **Convert** multiplies entered amount with the selected currency rate  
+
+---
+
+## 🛠️ Technologies Used
+
+- **React**
+- **Tailwind CSS**
+- **JavaScript**
+- **Currency API** by *@fawazahmed0*
+
+---
+
+## ▶️ Running the Project
+
+```bash
+npm install
+npm run dev
+
